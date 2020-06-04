@@ -7,7 +7,7 @@ import (
 
 	"github.com/ejholmes/hookshot/events"
 	"github.com/remind101/conveyor/client/conveyor"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/image"
 	"golang.org/x/net/context"
 )
 

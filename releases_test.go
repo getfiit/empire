@@ -3,7 +3,7 @@ package empire
 import (
 	"testing"
 
-	"github.com/remind101/empire/pkg/headerutil"
+	"github.com/getfiit/empire/pkg/headerutil"
 )
 
 func TestReleasesQuery(t *testing.T) {

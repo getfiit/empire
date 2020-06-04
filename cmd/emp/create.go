@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 var cmdCreate = &Command{

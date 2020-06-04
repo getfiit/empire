@@ -20,7 +20,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ecs"
 	"github.com/aws/aws-sdk-go/service/s3"
 	_ "github.com/lib/pq"
-	"github.com/remind101/empire/pkg/bytesize"
+	"github.com/getfiit/empire/pkg/bytesize"
 	"github.com/remind101/empire/scheduler"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

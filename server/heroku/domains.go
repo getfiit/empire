@@ -6,7 +6,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 	"github.com/remind101/pkg/httpx"
 	"golang.org/x/net/context"
 )

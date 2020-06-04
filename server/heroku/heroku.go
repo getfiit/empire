@@ -15,8 +15,8 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/headerutil"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/headerutil"
+	"github.com/getfiit/empire/pkg/heroku"
 	"github.com/remind101/empire/server/auth"
 	"github.com/remind101/empire/stats"
 	"github.com/remind101/pkg/httpx"

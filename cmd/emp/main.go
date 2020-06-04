@@ -12,7 +12,7 @@ import (
 	"github.com/docker/docker/pkg/term"
 	"github.com/mgutz/ansi"
 	"github.com/remind101/empire/cmd/emp/hkclient"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 var (

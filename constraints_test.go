@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/remind101/empire/pkg/bytesize"
-	"github.com/remind101/empire/pkg/constraints"
+	. "github.com/getfiit/empire/pkg/bytesize"
+	"github.com/getfiit/empire/pkg/constraints"
 )
 
 func TestConstraints_UnmarshalJSON(t *testing.T) {

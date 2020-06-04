@@ -17,7 +17,7 @@ import (
 	"github.com/chzyer/readline"
 	"github.com/mgutz/ansi"
 	"github.com/remind101/empire/cmd/emp/hkclient"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 var nrc *hkclient.NetRc

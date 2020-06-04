@@ -7,7 +7,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/cloudformation/customresources"
+	"github.com/getfiit/empire/pkg/cloudformation/customresources"
 )
 
 // appClient mocks the Empire interface we use.

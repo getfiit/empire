@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/remind101/empire/pkg/constraints"
+	"github.com/getfiit/empire/pkg/constraints"
 	"github.com/remind101/empire/scheduler"
 	"golang.org/x/net/context"
 )

@@ -7,7 +7,7 @@ import (
 
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/docker/docker/pkg/term"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 var stream bool

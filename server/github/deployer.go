@@ -7,8 +7,8 @@ import (
 
 	"github.com/ejholmes/hookshot/events"
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/dockerutil"
-	streamhttp "github.com/remind101/empire/pkg/stream/http"
+	"github.com/getfiit/empire/pkg/dockerutil"
+	streamhttp "github.com/getfiit/empire/pkg/stream/http"
 	"github.com/remind101/pkg/trace"
 	"github.com/remind101/tugboat"
 	"golang.org/x/net/context"

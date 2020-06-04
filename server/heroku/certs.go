@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 	"golang.org/x/net/context"
 )
 

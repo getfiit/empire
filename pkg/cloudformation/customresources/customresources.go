@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/remind101/empire/pkg/base62"
+	"github.com/getfiit/empire/pkg/base62"
 	"golang.org/x/net/context"
 )
 

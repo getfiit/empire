@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/jinzhu/gorm"
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/cloudformation/customresources"
+	"github.com/getfiit/empire/pkg/cloudformation/customresources"
 	"github.com/stretchr/testify/assert"
 )
 

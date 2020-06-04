@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 var listMode bool

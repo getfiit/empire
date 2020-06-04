@@ -5,7 +5,7 @@ import (
 
 	"github.com/remind101/empire"
 	"github.com/remind101/empire/empiretest"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 	"github.com/remind101/empire/server/auth"
 )
 

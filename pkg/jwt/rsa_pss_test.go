@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/remind101/empire/pkg/jwt"
+	"github.com/getfiit/empire/pkg/jwt"
 )
 
 var rsaPSSTestData = []struct {

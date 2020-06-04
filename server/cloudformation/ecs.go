@@ -16,7 +16,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/client"
 	"github.com/aws/aws-sdk-go/service/ecs"
 	"github.com/mitchellh/hashstructure"
-	"github.com/remind101/empire/pkg/cloudformation/customresources"
+	"github.com/getfiit/empire/pkg/cloudformation/customresources"
 	"github.com/remind101/pkg/reporter"
 )
 

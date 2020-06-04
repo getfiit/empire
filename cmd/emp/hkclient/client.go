@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 type Clients struct {

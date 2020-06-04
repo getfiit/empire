@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/remind101/empire/pkg/dockerutil"
-	"github.com/remind101/empire/pkg/httpmock"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/dockerutil"
+	"github.com/getfiit/empire/pkg/httpmock"
+	"github.com/getfiit/empire/pkg/image"
 )
 
 func TestCMDExtractor(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	shellwords "github.com/mattn/go-shellwords"
-	"github.com/remind101/empire/pkg/constraints"
+	"github.com/getfiit/empire/pkg/constraints"
 )
 
 // DefaultQuantities maps a process type to the default number of instances to

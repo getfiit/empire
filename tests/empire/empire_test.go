@@ -12,7 +12,7 @@ import (
 
 	"github.com/remind101/empire"
 	"github.com/remind101/empire/empiretest"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/image"
 	"github.com/remind101/empire/procfile"
 	"github.com/remind101/empire/scheduler"
 	"github.com/remind101/pkg/timex"

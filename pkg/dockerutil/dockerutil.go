@@ -8,7 +8,7 @@ import (
 
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/docker/docker/pkg/term"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/image"
 )
 
 // FakePull writes a jsonmessage stream to w that looks like a Docker pull.

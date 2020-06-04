@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/image"
 	"github.com/stretchr/testify/assert"
 )
 

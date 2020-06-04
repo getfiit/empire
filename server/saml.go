@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/saml"
+	"github.com/getfiit/empire/pkg/saml"
 	samlauth "github.com/remind101/empire/server/auth/saml"
 	"github.com/remind101/empire/server/heroku"
 	"github.com/remind101/pkg/reporter"

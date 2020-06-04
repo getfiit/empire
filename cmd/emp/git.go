@@ -8,7 +8,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 import "fmt"

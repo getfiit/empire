@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/remind101/empire/pkg/bytesize"
+	. "github.com/getfiit/empire/pkg/bytesize"
 )
 
 // ConstraintsSeparator separates the individual resource constraints

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 	"github.com/stretchr/testify/assert"
 )
 

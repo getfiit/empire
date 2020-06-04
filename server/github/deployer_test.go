@@ -8,8 +8,8 @@ import (
 
 	"github.com/ejholmes/hookshot/events"
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/dockerutil"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/dockerutil"
+	"github.com/getfiit/empire/pkg/image"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

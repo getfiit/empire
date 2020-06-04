@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/remind101/empire/pkg/cloudformation/customresources"
+	"github.com/getfiit/empire/pkg/cloudformation/customresources"
 
 	"golang.org/x/net/context"
 )

@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/lib/pq/hstore"
-	"github.com/remind101/empire/pkg/constraints"
+	"github.com/getfiit/empire/pkg/constraints"
 	"github.com/remind101/empire/procfile"
 	"github.com/remind101/migrate"
 )

@@ -7,7 +7,7 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/remind101/empire/pkg/dockerauth"
+	"github.com/getfiit/empire/pkg/dockerauth"
 )
 
 // The /containers/{name:.*}/copy endpoint was removed in this version of the

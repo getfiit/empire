@@ -8,7 +8,7 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/ejholmes/hookshot/events"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/image"
 	"github.com/stretchr/testify/assert"
 )
 

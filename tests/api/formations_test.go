@@ -3,7 +3,7 @@ package api_test
 import (
 	"testing"
 
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 func TestFormationBatchUpdate(t *testing.T) {

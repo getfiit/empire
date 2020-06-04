@@ -11,7 +11,7 @@ import (
 	"code.google.com/p/go-uuid/uuid"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/remind101/empire/pkg/dockerutil"
+	"github.com/getfiit/empire/pkg/dockerutil"
 	"github.com/remind101/empire/scheduler"
 	"golang.org/x/net/context"
 )

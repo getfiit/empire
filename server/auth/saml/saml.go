@@ -2,7 +2,7 @@ package saml
 
 import (
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/saml"
+	"github.com/getfiit/empire/pkg/saml"
 	"github.com/remind101/empire/server/auth"
 )
 

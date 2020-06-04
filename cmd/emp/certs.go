@@ -1,6 +1,6 @@
 package main
 
-import "github.com/remind101/empire/pkg/heroku"
+import "github.com/getfiit/empire/pkg/heroku"
 
 var (
 	process string

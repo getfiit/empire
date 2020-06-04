@@ -8,8 +8,8 @@ import (
 
 	"github.com/fsouza/go-dockerclient"
 	"github.com/jinzhu/gorm"
-	"github.com/remind101/empire/pkg/dockerutil"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/dockerutil"
+	"github.com/getfiit/empire/pkg/image"
 	"github.com/remind101/empire/scheduler"
 	"golang.org/x/net/context"
 )

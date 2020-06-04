@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/jinzhu/gorm"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/image"
 	"github.com/remind101/empire/procfile"
 	"golang.org/x/net/context"
 )

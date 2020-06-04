@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/heroku"
-	"github.com/remind101/empire/pkg/hijack"
-	streamhttp "github.com/remind101/empire/pkg/stream/http"
+	"github.com/getfiit/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/hijack"
+	streamhttp "github.com/getfiit/empire/pkg/stream/http"
 	"github.com/remind101/empire/server/auth"
 	"github.com/remind101/pkg/httpx"
 	"github.com/remind101/pkg/timex"

@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 type Release struct {

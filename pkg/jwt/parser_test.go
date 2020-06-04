@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/remind101/empire/pkg/jwt"
-	"github.com/remind101/empire/pkg/jwt/test"
+	"github.com/getfiit/empire/pkg/jwt"
+	"github.com/getfiit/empire/pkg/jwt/test"
 )
 
 var keyFuncError error = fmt.Errorf("error loading key")

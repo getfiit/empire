@@ -11,9 +11,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudformation"
 	"github.com/aws/aws-sdk-go/service/route53"
-	"github.com/remind101/empire/pkg/bytesize"
-	"github.com/remind101/empire/pkg/image"
-	"github.com/remind101/empire/pkg/troposphere"
+	"github.com/getfiit/empire/pkg/bytesize"
+	"github.com/getfiit/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/troposphere"
 	"github.com/remind101/empire/scheduler"
 	"github.com/stretchr/testify/assert"
 )

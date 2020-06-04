@@ -7,7 +7,7 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/remind101/empire/pkg/bytesize"
+	"github.com/getfiit/empire/pkg/bytesize"
 	"github.com/remind101/empire/scheduler"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

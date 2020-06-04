@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/remind101/empire"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 	"github.com/remind101/empire/server/auth"
 	"github.com/remind101/pkg/httpx"
 	"github.com/remind101/pkg/reporter"

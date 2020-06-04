@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/remind101/empire/pkg/dockerutil"
-	"github.com/remind101/empire/pkg/image"
+	"github.com/getfiit/empire/pkg/dockerutil"
+	"github.com/getfiit/empire/pkg/image"
 	"github.com/remind101/empire/procfile"
 
 	"github.com/fsouza/go-dockerclient"

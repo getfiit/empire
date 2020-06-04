@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	streamhttp "github.com/remind101/empire/pkg/stream/http"
+	streamhttp "github.com/getfiit/empire/pkg/stream/http"
 	"golang.org/x/net/context"
 )
 

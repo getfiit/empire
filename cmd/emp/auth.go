@@ -9,7 +9,7 @@ import (
 
 	"github.com/bgentry/speakeasy"
 	"github.com/remind101/empire/cmd/emp/hkclient"
-	"github.com/remind101/empire/pkg/heroku"
+	"github.com/getfiit/empire/pkg/heroku"
 )
 
 var cmdAuthorize = &Command{

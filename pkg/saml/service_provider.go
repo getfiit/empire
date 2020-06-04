@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/crewjam/go-xmlsec"
-	"github.com/remind101/empire/pkg/jwt"
+	"github.com/getfiit/empire/pkg/jwt"
 )
 
 // ServiceProvider implements SAML Service provider.

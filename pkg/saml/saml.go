@@ -36,7 +36,7 @@
 //         "io/ioutil"
 //         "net/http"
 //
-//         "github.com/remind101/empire/pkg/saml/samlsp"
+//         "github.com/getfiit/empire/pkg/saml/samlsp"
 //     )
 //
 //     func hello(w http.ResponseWriter, r *http.Request) {
