@@ -1,6 +1,6 @@
 .PHONY: build test bootstrap
 
-REPO = remind101/empire
+REPO = fiit/empire
 TYPE = patch
 ARTIFACTS = ${CIRCLE_ARTIFACTS}
 
@@ -23,6 +23,7 @@ build: Dockerfile
 	docker build -t ${REPO} .
 
 ci: cmds test vet
+    docker build -t ${REPO}:${CIRCLE_SHA1} .
 
 test: build/emp
 	go test -race $(shell go list ./... | grep -v /vendor/)

@@ -4,3 +4,4 @@ build
 *.dump
 *.key
 *.cert
+.idea
