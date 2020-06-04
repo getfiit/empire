@@ -20,26 +20,26 @@ jobs:
       - cp -R ~/empire ~/.go_workspace/src/github.com/remind101/empire
 
   dependencies:
-    cache_directories:
+    - cache_directories:
       - ~/download
-    pre:
+    - pre:
       - go get github.com/aktau/github-release
       - sudo pip install awscli
       - go version
       - cd ~/.go_workspace/src/github.com/remind101/empire && make bootstrap
-    override:
+    - override:
       - /bin/true
 
   test:
-    override:
+    - override:
       - cd ~/.go_workspace/src/github.com/remind101/empire && make ci
 
   deployment:
-    docker:
-      branch: fiit-master
-      commands:
-        - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-        - cd ~/.go_workspace/src/github.com/remind101/empire && docker push fiit/empire:${CIRCLE_SHA1}
+    - docker:
+        branch: fiit-master
+        commands:
+          - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+          - cd ~/.go_workspace/src/github.com/remind101/empire && docker push fiit/empire:${CIRCLE_SHA1}
 
 workflows:
   version: 2
