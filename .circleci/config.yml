@@ -1,49 +1,26 @@
+# Golang CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-go/ for more details
 version: 2
-  jobs:
-    build:
-      environment:
-        GODIST: "go1.7.linux-amd64.tar.gz"
-      services:
-        - docker
-      post:
-        - mkdir -p download
-        - test -e download/$GODIST || curl -o download/$GODIST https://storage.googleapis.com/golang/$GODIST
-        - sudo rm -rf /usr/local/go
-        - sudo tar -C /usr/local -xzf download/$GODIST
-        - sudo ln -s /usr/local/go/bin/go /usr/bin/go
-        - sudo go install -a -race std
-
-    checkout:
-      post:
-        - rm -rf ~/.go_workspace/src/github.com/remind101
-        - mkdir -p ~/.go_workspace/src/github.com/remind101
-        - cp -R ~/empire ~/.go_workspace/src/github.com/remind101/empire
-
-    dependencies:
-      cache_directories:
-        - ~/download
-      pre:
-        - go get github.com/aktau/github-release
-        - sudo pip install awscli
-        - go version
-        - cd ~/.go_workspace/src/github.com/remind101/empire && make bootstrap
-      override:
-        - /bin/true
-
-    test:
-      override:
-        - cd ~/.go_workspace/src/github.com/remind101/empire && make ci
-
-    deployment:
-      docker:
-        branch: fiit-master
-        commands:
-          - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-          - cd ~/.go_workspace/src/github.com/remind101/empire && docker push fiit/empire:${CIRCLE_SHA1}
-
-workflows:
-  version: 2
+jobs:
   build:
-    jobs:
-      - build:
-          context: docker-ci
+    docker:
+      # specify the version
+      - image: circleci/golang:1.9
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
+
+    #### TEMPLATE_NOTE: go expects specific checkout path representing url
+    #### expecting it in the form of
+    ####   /go/src/github.com/circleci/go-tool
+    ####   /go/src/bitbucket.org/circleci/go-tool
+    working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
+    steps:
+      - checkout
+
+      # specify any bash command here prefixed with `run: `
+      - run: go get -v -t -d ./...
+      - run: go test -v ./...
